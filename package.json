@@ -1,0 +1,8 @@
+{
+  "name": "ivy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:austinbiggs/ivy.git",
+  "author": "Austin Biggs <austintbiggs@gmail.com>",
+  "license": "MIT"
+}
