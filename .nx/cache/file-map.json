@@ -1,0 +1,43 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.3.0",
+  "deps": {
+    "@nx/next": "17.3.0",
+    "@nx/workspace": "17.3.0",
+    "nx": "17.3.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@ivy/source": [
+        {
+          "file": ".DS_Store",
+          "hash": "693822806325416468"
+        },
+        {
+          "file": "README.md",
+          "hash": "15023676830679173763"
+        },
+        {
+          "file": "nx.json",
+          "hash": "15761285797539088542"
+        },
+        {
+          "file": "package.json",
+          "hash": "6997507277982979710",
+          "deps": [
+            "npm:@nx/next",
+            "npm:@nx/workspace",
+            "npm:nx"
+          ]
+        },
+        {
+          "file": "yarn.lock",
+          "hash": "2295937808792014869"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

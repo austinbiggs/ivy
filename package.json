@@ -1,8 +1,19 @@
 {
-  "name": "ivy",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@ivy/source",
+  "version": "0.0.0",
   "repository": "git@github.com:austinbiggs/ivy.git",
   "author": "Austin Biggs <austintbiggs@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "@nx/next": "17.3.0"
+  },
+  "devDependencies": {
+    "@nx/workspace": "17.3.0",
+    "nx": "17.3.0"
+  },
+  "nx": {
+    "targets": {}
+  }
 }
