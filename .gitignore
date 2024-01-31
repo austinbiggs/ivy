@@ -1,0 +1,101 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Nx files
+.nx
+.nx/cache
+
+# env files
+*.env
+.env.*
+!*.env.example
+!.env.*.example
+
+# compiled output
+dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# yarn - https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# npm
+package-lock.json
+
+# Optional REPL history
+.node_repl_history
+
+# Native Builds
+build/
+
+=======
+# npm package tars
+*.tgz
+
+# Mac directory hidden files
+*.DS_Store
+
+# Temporary build output directory for unit tests
+__tests__/__output
+
+# Next.js
+.next
+apps/**/.next

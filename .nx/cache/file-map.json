@@ -9,6 +9,7 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [],
     "projectFileMap": {
       "@ivy/source": [
         {
@@ -16,12 +17,16 @@
           "hash": "693822806325416468"
         },
         {
+          "file": ".idea/workspace.xml",
+          "hash": "16432035931273841103"
+        },
+        {
           "file": "README.md",
           "hash": "15023676830679173763"
         },
         {
           "file": "nx.json",
-          "hash": "15761285797539088542"
+          "hash": "5411145179249312570"
         },
         {
           "file": "package.json",
@@ -35,9 +40,24 @@
         {
           "file": "yarn.lock",
           "hash": "2295937808792014869"
+        },
+        {
+          "file": ".nx/cache/nx_files.nxt",
+          "hash": "2846893347048421417"
+        },
+        {
+          "file": ".nx/cache/file-map.json",
+          "hash": "17501031399117623628"
+        },
+        {
+          "file": ".nx/cache/d/server-process.json",
+          "hash": "3197372067314798916"
+        },
+        {
+          "file": ".nx/cache/project-graph.json",
+          "hash": "3120417867976297558"
         }
       ]
-    },
-    "nonProjectFiles": []
+    }
   }
 }
