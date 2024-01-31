@@ -4,7 +4,6 @@
   "repository": "git@github.com:austinbiggs/ivy.git",
   "author": "Austin Biggs <austintbiggs@gmail.com>",
   "license": "MIT",
-  "scripts": {},
   "private": true,
   "dependencies": {
     "@nx/next": "17.3.0"
@@ -15,5 +14,6 @@
   },
   "nx": {
     "targets": {}
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }
