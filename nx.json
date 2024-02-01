@@ -3,30 +3,68 @@
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": [
-        "^build"
-      ],
-      "inputs": [
-        "production",
-        "^production"
-      ]
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     },
     "lint": {
       "cache": true
+    },
+    "@nx/next:build": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "e2e": {
+      "cache": true,
+      "inputs": ["default", "^production"]
+    },
+    "@nx/eslint:lint": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json",
+        "{workspaceRoot}/.eslintignore",
+        "{workspaceRoot}/eslint.config.js"
+      ]
+    },
+    "@nx/jest:jest": {
+      "cache": true,
+      "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
+      "options": {
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
     }
   },
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
-      "default"
+      "default",
+      "!{projectRoot}/cypress/**/*",
+      "!{projectRoot}/**/*.cy.[jt]s?(x)",
+      "!{projectRoot}/cypress.config.[jt]s",
+      "!{projectRoot}/.eslintrc.json",
+      "!{projectRoot}/eslint.config.js",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+      "!{projectRoot}/tsconfig.spec.json",
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/src/test-setup.[jt]s",
+      "!{projectRoot}/test-setup.[jt]s"
     ],
     "sharedGlobals": []
   },
-  "affected": {
-    "defaultBase": "main"
+  "generators": {
+    "@nx/next": {
+      "application": {
+        "style": "styled-components",
+        "linter": "eslint"
+      }
+    }
   },
-  "nxCloudAccessToken": "MGE1OTYxMGUtYjQ0ZS00OWUzLTk3MjItMTk0NTI5ZWU5ZWM4fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NTk1ZWQ1YmEtOWEzYi00N2JkLThmMjAtMzg3YmYyZWVkNzFlfHJlYWQtd3JpdGU="
 }

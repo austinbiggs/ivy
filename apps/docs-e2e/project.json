@@ -1,0 +1,25 @@
+{
+  "name": "docs-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/docs-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/docs-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "docs:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "docs:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["docs"]
+}
