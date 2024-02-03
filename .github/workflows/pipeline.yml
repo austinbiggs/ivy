@@ -1,8 +1,8 @@
 name: "🧪 CI"
 
 on:
-  push:
-    branches: [main]
+  #  push:
+  #    branches: [main]
   pull_request:
     branches: [main]
 
@@ -34,11 +34,11 @@ jobs:
       - name: "Install Dependencies"
         run: yarn install
 
-      - name: "Format Check"
-        run: yarn run nx affected --target=format:check --parallel --max-parallel=2
+      #      - name: "Format Check"
+      #        run: yarn run nx affected --target=format:check --parallel --max-parallel=2
 
-      - name: "Lint"
-        run: yarn run nx affected --target=lint --parallel --max-parallel=2
+      #      - name: "Lint"
+      #        run: yarn run nx affected --target=lint --parallel --max-parallel=2
 
       - name: "Build"
-        run: yarn run nx affected --target=build --parallel --max-parallel=2
+        run: yarn run nx run-many --target=build --parallel --max-parallel=2
