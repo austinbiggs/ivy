@@ -6,7 +6,7 @@
   "author": "Austin Biggs <austintbiggs@gmail.com>",
   "private": true,
   "dependencies": {
-    "next": "14.0.4",
+    "next": "14.1.0",
     "nextra": "2.13.3",
     "nextra-theme-docs": "2.13.3",
     "react": "18.2.0",
@@ -39,7 +39,7 @@
     "babel-plugin-styled-components": "1.13.3",
     "cypress": "13.6.4",
     "eslint": "8.56.0",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-cypress": "2.15.1",
     "eslint-plugin-import": "2.29.1",
