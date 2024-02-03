@@ -74,7 +74,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-annotate-as-pure@npm:^7.0.0, @babel/helper-annotate-as-pure@npm:^7.22.5":
+"@babel/helper-annotate-as-pure@npm:^7.15.4, @babel/helper-annotate-as-pure@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/helper-annotate-as-pure@npm:7.22.5"
   dependencies:
@@ -187,7 +187,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-imports@npm:^7.0.0, @babel/helper-module-imports@npm:^7.22.15, @babel/helper-module-imports@npm:^7.22.5":
+"@babel/helper-module-imports@npm:^7.0.0, @babel/helper-module-imports@npm:^7.15.4, @babel/helper-module-imports@npm:^7.22.15, @babel/helper-module-imports@npm:^7.22.5":
   version: 7.22.15
   resolution: "@babel/helper-module-imports@npm:7.22.15"
   dependencies:
@@ -2671,7 +2671,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:6.20.0"
     "@typescript-eslint/parser": "npm:6.20.0"
     babel-jest: "npm:29.7.0"
-    babel-plugin-styled-components: "npm:1.10.7"
+    babel-plugin-styled-components: "npm:1.13.3"
     cypress: "npm:13.6.4"
     eslint: "npm:8.48.0"
     eslint-config-next: "npm:14.0.4"
@@ -4391,17 +4391,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-styled-components@npm:1.10.7":
-  version: 1.10.7
-  resolution: "babel-plugin-styled-components@npm:1.10.7"
+"babel-plugin-styled-components@npm:1.13.3":
+  version: 1.13.3
+  resolution: "babel-plugin-styled-components@npm:1.13.3"
   dependencies:
-    "@babel/helper-annotate-as-pure": "npm:^7.0.0"
-    "@babel/helper-module-imports": "npm:^7.0.0"
+    "@babel/helper-annotate-as-pure": "npm:^7.15.4"
+    "@babel/helper-module-imports": "npm:^7.15.4"
     babel-plugin-syntax-jsx: "npm:^6.18.0"
     lodash: "npm:^4.17.11"
   peerDependencies:
     styled-components: ">= 2"
-  checksum: 10c0/3ba0e326fbb1232c43187c850691c8be015207dcb821b3be5533b400d067f39b7341aa75e993eacf3aa2a734c400dfaa100aa7de403a9ffd92893b30bd0144b2
+  checksum: 10c0/d689693dd5ad25ef2fd9a448cec4ab09a03ac364b443a9dd063607c12dc3955ee6d808550ed0cf9666cf11f9661193e97991dc836f92e3f8bbefafa2b6b0f09b
   languageName: node
   linkType: hard
 
