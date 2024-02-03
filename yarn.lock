@@ -2658,44 +2658,44 @@ __metadata:
     "@nx/js": "npm:17.3.1"
     "@nx/next": "npm:17.3.1"
     "@nx/workspace": "npm:17.3.1"
-    "@swc-node/register": "npm:~1.6.7"
-    "@swc/core": "npm:~1.3.85"
-    "@swc/helpers": "npm:~0.5.2"
-    "@swc/plugin-styled-components": "npm:^1.5.67"
-    "@types/jest": "npm:^29.4.0"
+    "@swc-node/register": "npm:1.6.8"
+    "@swc/core": "npm:1.3.107"
+    "@swc/helpers": "npm:0.5.3"
+    "@swc/plugin-styled-components": "npm:1.5.115"
+    "@types/jest": "npm:29.5.11"
     "@types/node": "npm:18.16.9"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
     "@types/react-is": "npm:18.2.2"
     "@types/styled-components": "npm:5.1.26"
-    "@typescript-eslint/eslint-plugin": "npm:^6.13.2"
-    "@typescript-eslint/parser": "npm:^6.13.2"
-    babel-jest: "npm:^29.4.1"
+    "@typescript-eslint/eslint-plugin": "npm:6.20.0"
+    "@typescript-eslint/parser": "npm:6.20.0"
+    babel-jest: "npm:29.7.0"
     babel-plugin-styled-components: "npm:1.10.7"
-    cypress: "npm:^13.0.0"
-    eslint: "npm:~8.48.0"
+    cypress: "npm:13.6.4"
+    eslint: "npm:8.48.0"
     eslint-config-next: "npm:14.0.4"
-    eslint-config-prettier: "npm:^9.0.0"
-    eslint-plugin-cypress: "npm:^2.13.4"
+    eslint-config-prettier: "npm:9.1.0"
+    eslint-plugin-cypress: "npm:2.15.1"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-jsx-a11y: "npm:6.7.1"
     eslint-plugin-react: "npm:7.32.2"
     eslint-plugin-react-hooks: "npm:4.6.0"
-    jest: "npm:^29.4.1"
-    jest-environment-jsdom: "npm:^29.4.1"
+    jest: "npm:29.7.0"
+    jest-environment-jsdom: "npm:29.7.0"
     next: "npm:14.0.4"
     nextra: "npm:2.13.2"
     nextra-theme-docs: "npm:2.13.2"
     nx: "npm:17.3.1"
-    prettier: "npm:^2.6.2"
+    prettier: "npm:2.8.8"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-is: "npm:18.2.0"
     styled-components: "npm:5.3.6"
-    ts-jest: "npm:^29.1.0"
+    ts-jest: "npm:29.1.2"
     ts-node: "npm:10.9.1"
     tslib: "npm:^2.3.0"
-    typescript: "npm:~5.3.2"
+    typescript: "npm:5.3.3"
   languageName: unknown
   linkType: soft
 
@@ -2951,7 +2951,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/register@npm:~1.6.7":
+"@swc-node/register@npm:1.6.8":
   version: 1.6.8
   resolution: "@swc-node/register@npm:1.6.8"
   dependencies:
@@ -3048,7 +3048,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core@npm:~1.3.85":
+"@swc/core@npm:1.3.107":
   version: 1.3.107
   resolution: "@swc/core@npm:1.3.107"
   dependencies:
@@ -3110,7 +3110,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/helpers@npm:~0.5.2":
+"@swc/helpers@npm:0.5.3":
   version: 0.5.3
   resolution: "@swc/helpers@npm:0.5.3"
   dependencies:
@@ -3119,7 +3119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/plugin-styled-components@npm:^1.5.67":
+"@swc/plugin-styled-components@npm:1.5.115":
   version: 1.5.115
   resolution: "@swc/plugin-styled-components@npm:1.5.115"
   checksum: 10c0/2d9ae47ab6fc8489cf7dfcd464e62f5480b9f4aee91ba7e92fe16f564af795bc6e6d822a3063c52a24a4c1861432fe4136dfb0b6a5562bb46882bff3e823dfa0
@@ -3376,7 +3376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.4.0":
+"@types/jest@npm:29.5.11":
   version: 29.5.11
   resolution: "@types/jest@npm:29.5.11"
   dependencies:
@@ -3619,7 +3619,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^6.13.2":
+"@typescript-eslint/eslint-plugin@npm:6.20.0":
   version: 6.20.0
   resolution: "@typescript-eslint/eslint-plugin@npm:6.20.0"
   dependencies:
@@ -3644,7 +3644,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0, @typescript-eslint/parser@npm:^6.13.2":
+"@typescript-eslint/parser@npm:6.20.0, @typescript-eslint/parser@npm:^5.4.2 || ^6.0.0":
   version: 6.20.0
   resolution: "@typescript-eslint/parser@npm:6.20.0"
   dependencies:
@@ -4286,7 +4286,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:^29.4.1, babel-jest@npm:^29.7.0":
+"babel-jest@npm:29.7.0, babel-jest@npm:^29.7.0":
   version: 29.7.0
   resolution: "babel-jest@npm:29.7.0"
   dependencies:
@@ -5300,7 +5300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^13.0.0":
+"cypress@npm:13.6.4":
   version: 13.6.4
   resolution: "cypress@npm:13.6.4"
   dependencies:
@@ -6390,7 +6390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^9.0.0":
+"eslint-config-prettier@npm:9.1.0":
   version: 9.1.0
   resolution: "eslint-config-prettier@npm:9.1.0"
   peerDependencies:
@@ -6442,7 +6442,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:^2.13.4":
+"eslint-plugin-cypress@npm:2.15.1":
   version: 2.15.1
   resolution: "eslint-plugin-cypress@npm:2.15.1"
   dependencies:
@@ -6643,7 +6643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:~8.48.0":
+"eslint@npm:8.48.0":
   version: 8.48.0
   resolution: "eslint@npm:8.48.0"
   dependencies:
@@ -8831,7 +8831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:^29.4.1":
+"jest-environment-jsdom@npm:29.7.0":
   version: 29.7.0
   resolution: "jest-environment-jsdom@npm:29.7.0"
   dependencies:
@@ -9135,7 +9135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^29.4.1":
+"jest@npm:29.7.0":
   version: 29.7.0
   resolution: "jest@npm:29.7.0"
   dependencies:
@@ -11594,7 +11594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.2":
+"prettier@npm:2.8.8":
   version: 2.8.8
   resolution: "prettier@npm:2.8.8"
   bin:
@@ -13165,7 +13165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^29.1.0":
+"ts-jest@npm:29.1.2":
   version: 29.1.2
   resolution: "ts-jest@npm:29.1.2"
   dependencies:
@@ -13366,7 +13366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.3.2":
+"typescript@npm:5.3.3, typescript@npm:~5.3.2":
   version: 5.3.3
   resolution: "typescript@npm:5.3.3"
   bin:
@@ -13376,7 +13376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~5.3.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A~5.3.2#optional!builtin<compat/typescript>":
   version: 5.3.3
   resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
