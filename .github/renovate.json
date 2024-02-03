@@ -3,7 +3,7 @@
   "extends": ["config:best-practices"],
   "branchConcurrentLimit": 15,
   "prConcurrentLimit": 15,
-  "prCreation": "not-pending",
+  "prCreation": "immediate",
   "hostRules": [
     {
       "matchHost": "github.com",
