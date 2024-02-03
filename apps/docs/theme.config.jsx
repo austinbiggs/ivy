@@ -1,22 +1,13 @@
-import Image from 'next/image';
-
-const Logo = () => (
-  <Image
-    loading="eager"
-    src="/img/logo/logo_dark.svg"
-    alt="Ivy UI"
-    width={105}
-    height={40.8}
-  />
-);
+import { Logo } from "./src/components/Logo";
 
 const config = {
   logo: Logo,
+  primaryHue: 153,
+  primarySaturation: 79,
   project: {
-    link: 'https://github.com/austinbiggs/ivy',
+    link: "https://github.com/austinbiggs/ivy",
   },
-  docsRepositoryBase:
-    'https://github.com/austinbiggs/ivy/tree/main/apps/hydra-site/',
+  docsRepositoryBase: "https://github.com/austinbiggs/ivy/tree/main/apps/docs/",
   // ... other theme options
 };
 
