@@ -3673,10 +3673,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.9":
-  version: 18.16.9
-  resolution: "@types/node@npm:18.16.9"
-  checksum: 10c0/bb3e7192d868297cf0fe89fdc52dfcb3934b5ac398ee09d6b0f8762605e8f71aa344fde91234eea9c7d1500dc895fe60743d972b1605dde4b064edeb8e2f0592
+"@types/node@npm:18.19.14":
+  version: 18.19.14
+  resolution: "@types/node@npm:18.19.14"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/a614e85d3d75e9bb73c1155f77843804506806629d20774e0479e88678efd64ab57f7bb2ba290b226fe732b6aead037ac181db04851a2f37e1c2a14744ffdb96
   languageName: node
   linkType: hard
 
@@ -9234,7 +9236,7 @@ __metadata:
     "@swc/helpers": "npm:0.5.2"
     "@swc/plugin-styled-components": "npm:1.5.115"
     "@types/jest": "npm:29.4.0"
-    "@types/node": "npm:18.16.9"
+    "@types/node": "npm:18.19.14"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
     "@types/react-is": "npm:18.2.4"
