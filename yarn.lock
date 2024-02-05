@@ -2093,7 +2093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/transform@npm:^29.4.1, @jest/transform@npm:^29.7.0":
+"@jest/transform@npm:^29.7.0":
   version: 29.7.0
   resolution: "@jest/transform@npm:29.7.0"
   dependencies:
@@ -3491,13 +3491,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.4.0":
-  version: 29.4.0
-  resolution: "@types/jest@npm:29.4.0"
+"@types/jest@npm:29.5.12":
+  version: 29.5.12
+  resolution: "@types/jest@npm:29.5.12"
   dependencies:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
-  checksum: 10c0/db1c148e8acf30247e39c6d7db9dadb7dad15f71f22f41cbee5f8037f939b090839e45e5ca506167db3b8a8dd9c850f788d9b41ec8082bc0036cce65fd6c2ff7
+  checksum: 10c0/25fc8e4c611fa6c4421e631432e9f0a6865a8cb07c9815ec9ac90d630271cad773b2ee5fe08066f7b95bebd18bb967f8ce05d018ee9ab0430f9dfd1d84665b6f
   languageName: node
   linkType: hard
 
@@ -4457,24 +4457,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:29.4.1":
-  version: 29.4.1
-  resolution: "babel-jest@npm:29.4.1"
-  dependencies:
-    "@jest/transform": "npm:^29.4.1"
-    "@types/babel__core": "npm:^7.1.14"
-    babel-plugin-istanbul: "npm:^6.1.1"
-    babel-preset-jest: "npm:^29.4.0"
-    chalk: "npm:^4.0.0"
-    graceful-fs: "npm:^4.2.9"
-    slash: "npm:^3.0.0"
-  peerDependencies:
-    "@babel/core": ^7.8.0
-  checksum: 10c0/a5b9ebb1dbf202837bf5a9f4d11323a5b6c74540b7256685ea76d8d3323f1ed6f86f01e26de9cc794d6c0f47fdc2a3efbb08d999898ababfe6e0b7689f56c71d
-  languageName: node
-  linkType: hard
-
-"babel-jest@npm:^29.7.0":
+"babel-jest@npm:29.7.0, babel-jest@npm:^29.7.0":
   version: 29.7.0
   resolution: "babel-jest@npm:29.7.0"
   dependencies:
@@ -4622,7 +4605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-jest@npm:^29.4.0, babel-preset-jest@npm:^29.6.3":
+"babel-preset-jest@npm:^29.6.3":
   version: 29.6.3
   resolution: "babel-preset-jest@npm:29.6.3"
   dependencies:
@@ -8986,7 +8969,7 @@ __metadata:
     "@swc/core": "npm:1.3.85"
     "@swc/helpers": "npm:0.5.2"
     "@swc/plugin-styled-components": "npm:1.5.115"
-    "@types/jest": "npm:29.4.0"
+    "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.11.16"
     "@types/react": "npm:18.2.52"
     "@types/react-dom": "npm:18.2.18"
@@ -8994,7 +8977,7 @@ __metadata:
     "@types/styled-components": "npm:5.1.34"
     "@typescript-eslint/eslint-plugin": "npm:6.20.0"
     "@typescript-eslint/parser": "npm:6.20.0"
-    babel-jest: "npm:29.4.1"
+    babel-jest: "npm:29.7.0"
     babel-plugin-styled-components: "npm:2.1.4"
     cypress: "npm:13.0.0"
     eslint: "npm:8.56.0"
