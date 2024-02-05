@@ -59,7 +59,7 @@
     "@swc-node/register": "1.6.7",
     "@swc/core": "1.3.85",
     "@swc/helpers": "0.5.2",
-    "@swc/plugin-styled-components": "1.5.115",
+    "@swc/plugin-styled-components": "1.5.116",
     "@types/jest": "29.5.12",
     "@types/node": "20.11.16",
     "@types/react": "18.2.54",
