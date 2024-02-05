@@ -3234,10 +3234,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/plugin-styled-components@npm:1.5.115":
-  version: 1.5.115
-  resolution: "@swc/plugin-styled-components@npm:1.5.115"
-  checksum: 10c0/2d9ae47ab6fc8489cf7dfcd464e62f5480b9f4aee91ba7e92fe16f564af795bc6e6d822a3063c52a24a4c1861432fe4136dfb0b6a5562bb46882bff3e823dfa0
+"@swc/plugin-styled-components@npm:1.5.116":
+  version: 1.5.116
+  resolution: "@swc/plugin-styled-components@npm:1.5.116"
+  checksum: 10c0/2152fc42a30492c884e5ade074b3d0846f3de5cf645398e1a409126e4d2374588d609a634015a7e645df004cc097d929b2c22a76ccc77aa0b967a5c00bd5c7c2
   languageName: node
   linkType: hard
 
@@ -8921,7 +8921,7 @@ __metadata:
     "@swc-node/register": "npm:1.6.7"
     "@swc/core": "npm:1.3.85"
     "@swc/helpers": "npm:0.5.2"
-    "@swc/plugin-styled-components": "npm:1.5.115"
+    "@swc/plugin-styled-components": "npm:1.5.116"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.11.16"
     "@types/react": "npm:18.2.52"
