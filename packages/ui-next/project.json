@@ -1,0 +1,8 @@
+{
+  "name": "ui-next",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/ui-next/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

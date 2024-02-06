@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ivy/ui-js": ["packages/ui-js/src/index.ts"],
+      "@ivy/ui-next": ["packages/ui-next/src/index.ts"],
+      "@ivy/ui-next/server": ["packages/ui-next/src/server.ts"],
+      "ui-js": ["packages/ui-js/src/index.ts"],
+      "ui-next": ["packages/ui-next/src/index.ts"],
+      "ui-next/server": ["packages/ui-next/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

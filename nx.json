@@ -39,6 +39,11 @@
           "codeCoverage": true
         }
       }
+    },
+    "@nx/js:swc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
@@ -64,7 +69,26 @@
         "style": "styled-components",
         "linter": "eslint"
       }
+    },
+    "@nx/react": {
+      "library": {}
     }
   },
-  "nxCloudAccessToken": "NTk1ZWQ1YmEtOWEzYi00N2JkLThmMjAtMzg3YmYyZWVkNzFlfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NTk1ZWQ1YmEtOWEzYi00N2JkLThmMjAtMzg3YmYyZWVkNzFlfHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "startTargetName": "start"
+      }
+    }
+  ]
 }

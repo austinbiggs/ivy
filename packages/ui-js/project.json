@@ -1,0 +1,26 @@
+{
+  "name": "ui-js",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "ui-js/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/ui-js",
+        "main": "ui-js/src/index.ts",
+        "tsConfig": "ui-js/tsconfig.lib.json",
+        "assets": ["ui-js/*.md"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "ui-js/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}
