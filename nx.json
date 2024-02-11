@@ -44,6 +44,9 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
+    },
+    "build-storybook": {
+      "cache": true
     }
   },
   "namedInputs": {
@@ -94,9 +97,7 @@
   ],
   "tasksRunnerOptions": {
     "default": {
-      "options": {
-        "cacheableOperations": ["build-storybook"]
-      }
+      "options": {}
     }
   }
 }
