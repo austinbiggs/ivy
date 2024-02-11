@@ -39,6 +39,14 @@
           "codeCoverage": true
         }
       }
+    },
+    "@nx/js:swc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "build-storybook": {
+      "cache": true
     }
   },
   "namedInputs": {
@@ -54,7 +62,10 @@
       "!{projectRoot}/tsconfig.spec.json",
       "!{projectRoot}/jest.config.[jt]s",
       "!{projectRoot}/src/test-setup.[jt]s",
-      "!{projectRoot}/test-setup.[jt]s"
+      "!{projectRoot}/test-setup.[jt]s",
+      "!{projectRoot}/**/*.stories.@(js|jsx|ts|tsx|mdx)",
+      "!{projectRoot}/.storybook/**/*",
+      "!{projectRoot}/tsconfig.storybook.json"
     ],
     "sharedGlobals": []
   },
@@ -66,5 +77,27 @@
       }
     }
   },
-  "nxCloudAccessToken": "NTk1ZWQ1YmEtOWEzYi00N2JkLThmMjAtMzg3YmYyZWVkNzFlfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NTk1ZWQ1YmEtOWEzYi00N2JkLThmMjAtMzg3YmYyZWVkNzFlfHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/storybook/plugin",
+      "options": {
+        "buildStorybookTargetName": "build-storybook",
+        "serveStorybookTargetName": "storybook",
+        "testStorybookTargetName": "test-storybook",
+        "staticStorybookTargetName": "static-storybook"
+      }
+    }
+  ],
+  "tasksRunnerOptions": {
+    "default": {
+      "options": {}
+    }
+  }
 }
