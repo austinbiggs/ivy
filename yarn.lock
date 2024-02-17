@@ -3306,7 +3306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/counter@npm:^0.1.2":
+"@swc/counter@npm:^0.1.2, @swc/counter@npm:^0.1.3":
   version: 0.1.3
   resolution: "@swc/counter@npm:0.1.3"
   checksum: 10c0/8424f60f6bf8694cfd2a9bca45845bce29f26105cda8cf19cdb9fd3e78dc6338699e4db77a89ae449260bafa1cc6bec307e81e7fb96dbf7dcfce0eea55151356
@@ -3331,10 +3331,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/plugin-styled-components@npm:1.5.116":
-  version: 1.5.116
-  resolution: "@swc/plugin-styled-components@npm:1.5.116"
-  checksum: 10c0/2152fc42a30492c884e5ade074b3d0846f3de5cf645398e1a409126e4d2374588d609a634015a7e645df004cc097d929b2c22a76ccc77aa0b967a5c00bd5c7c2
+"@swc/plugin-styled-components@npm:1.5.118":
+  version: 1.5.118
+  resolution: "@swc/plugin-styled-components@npm:1.5.118"
+  dependencies:
+    "@swc/counter": "npm:^0.1.3"
+  checksum: 10c0/30fd3dcc16a23cf6e0e025cb623d26d8971b7ca37486e26587f7bd6cd6b5734964bfb3602290a4ce5c4daa95cf63e552950105ddbcb6b4745602d5fa53cb994e
   languageName: node
   linkType: hard
 
@@ -10323,7 +10325,7 @@ __metadata:
     "@swc-node/register": "npm:1.8.0"
     "@swc/core": "npm:1.4.1"
     "@swc/helpers": "npm:0.5.6"
-    "@swc/plugin-styled-components": "npm:1.5.116"
+    "@swc/plugin-styled-components": "npm:1.5.118"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.11.19"
     "@types/react": "npm:18.2.54"
