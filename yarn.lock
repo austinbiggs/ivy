@@ -3852,12 +3852,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.18":
-  version: 18.2.18
-  resolution: "@types/react-dom@npm:18.2.18"
+"@types/react-dom@npm:18.2.19":
+  version: 18.2.19
+  resolution: "@types/react-dom@npm:18.2.19"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10c0/74dba11a1b8156f3a763f3fca1fb4ec1dcd349153279b8bf79210024a69f994bf2cf0728198c047f8130c5318420ea56281b0a4ef84c8ae943cd9a0cac705220
+  checksum: 10c0/88d7c6daa4659f661d0c97985d9fca492f24b421a34bb614dcd94c343aed7bea121463149e97fb01ecaa693be17b7d1542cf71ddb1705f3889a81eb2639a88aa
   languageName: node
   linkType: hard
 
@@ -3881,14 +3881,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.54":
-  version: 18.2.54
-  resolution: "@types/react@npm:18.2.54"
+"@types/react@npm:18.2.56":
+  version: 18.2.56
+  resolution: "@types/react@npm:18.2.56"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/ad38193c30a063a481aeec2460de6396c80d8de2f1c7a8cbb80a4e8bc594f74c308ce93e165d743b38507c3ac0a491c24ce0efbd84c9ab21fd5fd38d2963d329
+  checksum: 10c0/a6dab9569799538a9e01d340a721ef1a6f5532bd11cae8d8ab9af00dab2edcafaa00950f7bf2f9ae5bbb1839d890e9ac6eb1ea1186200894b7178dde7b503269
   languageName: node
   linkType: hard
 
@@ -10328,8 +10328,8 @@ __metadata:
     "@swc/plugin-styled-components": "npm:1.5.118"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.11.19"
-    "@types/react": "npm:18.2.54"
-    "@types/react-dom": "npm:18.2.18"
+    "@types/react": "npm:18.2.56"
+    "@types/react-dom": "npm:18.2.19"
     "@types/react-is": "npm:18.2.4"
     "@types/styled-components": "npm:5.1.34"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
