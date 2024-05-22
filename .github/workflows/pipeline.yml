@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Derive appropriate SHAs for base and head for `nx affected` commands"
-        uses: nrwl/nx-set-shas@76907e7e5d3cd17ddb5e2b123389f054bffcdd03 # v4
+        uses: nrwl/nx-set-shas@40f1175ceec169e68c9857c27aa7c5063692aa9a # v4
 
       - name: "Setup Node.js ${{ matrix.node }}"
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
